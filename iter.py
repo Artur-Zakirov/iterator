@@ -1,4 +1,5 @@
 
+# TASK 1: create iterator
 class FlatIterator:
 
     def __init__(self, nested_list):
@@ -23,6 +24,7 @@ class FlatIterator:
             return item
 
 
+# TASK 3: create adv iterator
 class NewFlatIterator:
 
     def __init__(self, nested_list):

@@ -1,12 +1,14 @@
 from iter import FlatIterator, NewFlatIterator
 
 
+# TASK 2: create generator
 def flat_generator(nested_list):
     for list in nested_list:
         for item in list:
             yield item
 
 
+# TASK 4: create adv generator
 def new_flat_generator(nested_list):
     for item in nested_list:
         if isinstance(item, list):
